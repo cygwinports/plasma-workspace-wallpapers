@@ -1,0 +1,12 @@
+inherit kf5
+
+NAME="plasma-workspace-wallpapers"
+VERSION=5.8.5
+RELEASE=1
+CATEGORY="KDE"
+SUMMARY="KDE desktop wallpaper"
+DESCRIPTION="Default wallpaper collections for the KDE Plasma desktop."
+
+ARCH=noarch
+
+OBSOLETES="kde-wallpapers"
