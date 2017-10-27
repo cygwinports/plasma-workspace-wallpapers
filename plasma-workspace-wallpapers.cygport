@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="plasma-workspace-wallpapers"
-VERSION=5.8.5
+VERSION=5.8.8
 RELEASE=1
 CATEGORY="KDE"
 SUMMARY="KDE desktop wallpaper"
@@ -9,4 +9,5 @@ DESCRIPTION="Default wallpaper collections for the KDE Plasma desktop."
 
 ARCH=noarch
 
-OBSOLETES="kde-wallpapers"
+# this doesn't work due to it being a version decrease (15.04.3->5.8.z)
+#OBSOLETES="kde-wallpapers"
